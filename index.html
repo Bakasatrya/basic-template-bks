@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive ShopAwesome</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>BakaShop</h1>
+      <p>BELI DI SINI BONUS OWNER GANTENGNYA!</p>
+      <a href="#products" class="btn-primary">Shop Now</a>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="navbar">
+      <li><a href="#products">Produk</a></li>
+    </ul>
+  </nav>
+
+  <section id="products" class="section">
+    <div class="container">
+      <h2>Produk Kami</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="image/product1.jpg" alt="Product 1">
+          <h3>SSD Samsung 512 GB</h3>
+          <p>Rp155.000</p>
+          <a href="https://wa.me/0895410265241/?text=Hello" onclick="ChatWa('Product 1')">Chat Wa Kami</a>
+        </div>
+        <div class="product-card">
+          <img src="image/product2.jpg"  alt="Product 2">
+          <h3>Mouse Rexus</h3>
+          <p>Rp250.000</p>
+          <a href="https://wa.me/0895410265241/?text=Hello" onclick="ChatWa('Product 2')">Chat Wa Kami</a>
+        </div>
+        <div class="product-card">
+          <img src="image/product3.jpg"  alt="Product 3">
+          <h3>Mousepad Gaming</h3>
+          <p>Rp320.000</p>
+         <a href="https://wa.me/0895410265241/?text=Hello" onclick="ChatWa('Product 3')">Chat Wa Kami</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cart" class="section">
+    <div class="container">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items">
+        <!-- Items will be added dynamically here -->
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 ShopAwesome. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
