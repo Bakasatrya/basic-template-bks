@@ -1,0 +1,1 @@
+Pokoknya kerjain aja
